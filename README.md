@@ -11,7 +11,6 @@ A full-stack banking management system that enables users to securely manage the
 - Transfer money between accounts
 - Account balance management
 - Transaction validation
-- RESTful API architecture
 - Responsive and user-friendly interface
 
 
