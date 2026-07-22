@@ -1,3 +1,3 @@
-# bank-system-project
+# bank-managment-system
 project desc
 "# bank-system" 
