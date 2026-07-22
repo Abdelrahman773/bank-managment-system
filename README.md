@@ -14,25 +14,32 @@ A full-stack banking management system that enables users to securely manage the
 - RESTful API architecture
 - Responsive and user-friendly interface
 
-## Tech Stack
 
-### Frontend
+## Frontend
 - React (JSX)
+- TypeScript
+- Vite
 - HTML5
 - CSS3
+- React Hook Form
+- REST API Integration (Fetch/Axios)
+- JWT Authentication Handling
+- Responsive Dashboard UI
 
-### Backend
+
+## Backend
 - Flask
-- Flask-JWT-Extended (JWT Authentication)
+- Python
 - MySQL
+- Flask-JWT-Extended (JWT Authentication)
+- RESTful API
+- Marshmallow Data Validation
+- CORS Support
+- Environment Variable Management (.env)
+- Secure Password Authentication
+- Database CRUD Operations
 
-## Project Structure
 
-```
-bank-management-system/
-├── frontend/      # React application
-├── backend/       # Flask REST API
-```
 
 ## Objective
 
