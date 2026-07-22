@@ -1,0 +1,23 @@
+:root {
+  --text: #0f172a;
+  --bg: #edf3f8;
+  --surface: #ffffff;
+  --accent: #7ec8a0;
+  --accent-strong: #52b788;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Instrument Sans', sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}

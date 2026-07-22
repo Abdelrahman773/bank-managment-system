@@ -1,0 +1,147 @@
+    .container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background-color: #f2eee7;
+        font-family: 'Instrument Sans', sans-serif;
+    }
+
+    .dashboard-body {
+        display: flex;
+        flex: 1;
+        min-height: calc(100vh - 72px); /* 72px = navbar height */
+    }
+
+    .side-panel {
+        width: 240px;
+        background-color: #1a3a2a;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem 1rem;
+        gap: 0.25rem;
+        flex-shrink: 0;
+        align-self: stretch;
+    }
+
+    .side-panel-logo {
+        font-family: 'DM Serif Display', serif;
+        font-size: 1.2rem;
+        color: #fff;
+        letter-spacing: -0.02em;
+        padding: 0 0.75rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .side-panel-logo em {
+        color: #7ec8a0;
+        font-style: italic;
+    }
+
+    .side-panel-section {
+        font-size: 9px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.25);
+        padding: 0.75rem 0.75rem 0.3rem;
+    }
+
+    .side-panel button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        padding: 0.6rem 0.75rem;
+        border-radius: 8px;
+        border: none;
+        background: none;
+        color: rgba(255, 255, 255, 0.55);
+        font-size: 0.85rem;
+        font-weight: 500;
+        font-family: 'Instrument Sans', sans-serif;
+        cursor: pointer;
+        text-align: left;
+        transition: all 0.15s ease;
+    }
+
+    .side-panel button:hover {
+        background: rgba(255, 255, 255, 0.08);
+        color: #fff;
+    }
+
+    .side-panel button.active {
+        background: rgba(255, 255, 255, 0.13);
+        color: #fff;
+    }
+
+    .side-panel button i {
+        font-size: 18px;
+        flex-shrink: 0;
+    }
+
+    .side-panel-footer {
+        margin-top: auto;
+        border-top: 0.5px solid rgba(255, 255, 255, 0.1);
+        padding-top: 1rem;
+    }
+
+    .user-pill {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 0.5rem 0.75rem;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.15s ease;
+    }
+
+    .user-pill:hover {
+        background: rgba(255, 255, 255, 0.08);
+    }
+
+    .user-avatar {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #2d6a4f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        font-weight: 600;
+        color: #fff;
+        flex-shrink: 0;
+    }
+
+    .user-info-name {
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .user-info-role {
+        font-size: 0.7rem;
+        color: rgba(255, 255, 255, 0.35);
+    }
+
+    .main-content {
+        flex: 1;
+        padding: 2rem;
+        overflow-y: auto;
+    }
+
+
+.side-panel-section {
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.25);
+    padding: 0.75rem 0.75rem 0.3rem;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 500;
+}
+
+.side-panel button svg {
+    flex-shrink: 0;
+    color: inherit;
+    transition: color 0.15s ease;
+}

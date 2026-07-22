@@ -1,0 +1,279 @@
+.register-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f2eee7;
+    background-image: radial-gradient(circle, #c8c2b8 1px, transparent 1px);
+    background-size: 24px 24px;
+
+}
+
+.register-panel-right {
+    background-color: #6b6863;   
+    width: 400px;
+    height: 520px;            
+    border-radius: 0 12px 12px 0;
+    border: 0.5px solid rgba(0, 0, 0, 0.08);
+    padding: 2.5rem 2rem;         
+}
+
+.register-panel-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1a3a2a;
+    border-radius: 12px 0 0 12px;
+    padding: 2rem 1.5rem;         
+    width: 400px;
+    height: 520px;            
+}
+
+.error-message {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #c0392b;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+
+  margin-top: 4px;
+  margin-bottom: 6px;
+  padding-left: 2px;
+
+  animation: errorFadeIn 0.2s ease-out;
+}
+
+.error-message::before {
+  content: "⚠";
+  font-size: 0.7rem;
+  flex-shrink: 0;
+}
+
+@keyframes errorFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.register-panel-left-top p {
+  color: #b0ada5;
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  margin-top: 0.4rem;
+  opacity: 0.85;
+}
+
+.register-panel-left-top h1 {
+    color: #ffffff;
+}
+
+.register-panel-left-top em {
+    color: #7ec8a0;
+}
+
+.register-panel-left-bottom {
+    display: flex;
+}
+
+
+.register-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.register-feature {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+.register-feature i {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: #7ec8a0;
+}
+
+.register-feature p {
+  margin: 0;
+  margin-bottom: 0.9rem;
+  color: rgba(255, 255, 255, 0.30);
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+
+
+}
+    
+
+.register-panel-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #f8f7f4;
+    padding: 2.5rem 2rem;
+    border-radius: 0 12px 12px 0;
+    border: 0.5px solid rgba(0, 0, 0, 0.08);
+    overflow-y: auto;  
+}
+
+.register-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.register-field label {
+    font-size: 0.73rem;
+    font-weight: 500;
+    color: #4a4a4a;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.register-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.register-form h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    color: #0f0f0f;
+    letter-spacing: -0.03em;
+    margin-bottom: 0.25rem;
+}
+
+.register-form p {
+    font-size: 0.8rem;
+    color: #8a8a8a;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.register-field input {
+    width: 100%;
+    height: 38px;
+    padding: 0 0.75rem;
+    font-size: 0.85rem;
+    font-family: 'Instrument Sans', sans-serif;
+    background-color: #f8f7f4;
+    border: 0.5px solid rgba(0, 0, 0, 0.14);
+    border-radius: 8px;
+    color: #0f0f0f;
+    outline: none;
+    transition: border-color 0.15s ease;
+}
+
+.register-field input::placeholder {
+    color: #b0ada5;
+}
+
+.register-field input:focus {
+    border-color: #2d6a4f;
+    background-color: #ffffff;
+}
+
+.register-field input:hover:not(:focus) {
+    border-color: rgba(0, 0, 0, 0.25);
+}
+
+.register-field input.error {
+    border-color: #c0392b;
+    background-color: #fdf0ef;
+}
+
+.register-field input:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.register-submit {
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: #1a3a2a;
+    color: #ffffff;
+    font-size: 0.85rem;
+    font-weight: 500;
+    font-family: 'Instrument Sans', sans-serif;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+.register-submit:hover {
+    background-color: #2d6a4f;
+}
+
+.register-footer-link {
+    text-align: center;
+    font-size: 0.78rem;
+    color: #8a8a8a;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.register-footer-link a {
+    color: #2d6a4f;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.register-footer-link a:hover {
+    text-decoration: underline;
+}
+
+
+.reg-form-top {
+    border-bottom: #0f0f0f;
+}
+
+.error-msg {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.75rem;
+    color: #c0392b;
+    background-color: #fdf0ef;
+    border: 0.5px solid rgba(192, 57, 43, 0.15);
+    border-radius: 8px;
+    padding: 0.5rem 0.75rem;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.register-panel-right::-webkit-scrollbar {
+    width: 6px;
+}
+
+.register-panel-right::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.register-panel-right::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 99px;
+}
+
+.register-panel-right::-webkit-scrollbar-thumb:hover {
+    background-color: #2d6a4f;
+}
