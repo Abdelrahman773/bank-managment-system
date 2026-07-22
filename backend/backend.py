@@ -57,7 +57,7 @@ class FlaskApi():
                 data["lastName"],
                 data["nationalId"],
                 data["phonenumber"],
-                "123 Giza station",
+                ".",
                 data["dateOfBirth"]
             )
             if db_result:

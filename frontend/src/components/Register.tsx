@@ -51,7 +51,7 @@ function Register() {
             href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
           <div className="register-panel-left">
             <div className="register-panel-left-top">
-              <h1>Nile<em>Bank</em></h1>
+              <h1>Demo<em>Bank</em></h1>
               <p>Open your account in minutes</p>
             </div>
             <div className="register-panel-left-bottom">

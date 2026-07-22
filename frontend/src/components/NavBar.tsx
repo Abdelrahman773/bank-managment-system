@@ -11,7 +11,7 @@ function NavBar({username}:DashboardData) {
         <>
                 <nav className="navbar">
                     <div className="navbar-icon">
-                        <h1>Nile<em>Bank</em></h1>
+                        <h1>Demo<em>Bank</em></h1>
                     </div>
                     <div className="navbar-logout-id">
                         <div className="login-info">

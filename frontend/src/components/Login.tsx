@@ -68,7 +68,7 @@ type RegisterFormData = {
       <div className="containter">
         <div className="left-side">
           <div className="left-side-top">
-            <h1>Nile<em>Bank</em></h1>
+            <h1>Demo<em>Bank</em></h1>
             <p>Secure Banking for Everyone</p>
           </div>
           <div className="left-side-bottom">
